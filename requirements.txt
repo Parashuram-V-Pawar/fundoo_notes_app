@@ -2,4 +2,3 @@ fastapi
 uvicorn
 sqlalchemy
 loguru
-pip install 'pydantic[email]'
