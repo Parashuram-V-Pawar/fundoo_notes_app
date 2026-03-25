@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from src.config.db import Base, engine
-from src.config.logger_middleware import log_requests
+from config.db import Base, engine
+from config.logger_middleware import log_requests
 from src.models import notes, users
 from src.routes import users_routes, notes_routes  
 

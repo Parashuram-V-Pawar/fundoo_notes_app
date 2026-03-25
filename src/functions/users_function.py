@@ -5,7 +5,7 @@ from typing import Dict, List
 
 from src.models.users import User
 from src.schema.users_schema import *
-from src.config.logger import logger
+from config.logger import logger
 
 
 def create_user(db: Session, user: UserCreate) -> User:

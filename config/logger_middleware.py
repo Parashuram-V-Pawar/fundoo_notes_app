@@ -1,5 +1,5 @@
 from fastapi import Request
-from src.config.logger import logger
+from config.logger import logger
 import time
 
 async def log_requests(request: Request, call_next):

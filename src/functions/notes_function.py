@@ -2,7 +2,7 @@ from fastapi import HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError, SQLAlchemyError
 
-from src.config.logger import logger
+from config.logger import logger
 from src.models.notes import Note
 from src.schema.notes_schema import *
 
