@@ -74,8 +74,8 @@ fundoo-notes
 ## Installation & Setup
 ### 1 Clone the repository
 ```
-git clone https://github.com/vilas-kr/fundoo-notes.git
-cd fundoo-notes
+git clone https://github.com/Parashuram-V-Pawar/fundoo-notes-app.git
+cd fundoo-notes-app
 ```
 
 ### 2 Create virtual environment
